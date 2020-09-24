@@ -16,7 +16,7 @@ nav {
     justify-content: flex-start;
 }
 
-nav div {
+nav div{
     height: 30px;
     flex-grow: 1;
     flex-basis: 0;
@@ -27,7 +27,7 @@ nav div img {
     height: 100%;
 }
 
-.search-container > input {
+nav div.search-container > input {
     box-sizing: border-box;
     height: 30px;
     width: 80%;
@@ -36,7 +36,7 @@ nav div img {
     border: 1px solid #e0e0e0;
 }
 
-.search-container > button {
+nav div.search-container > button {
     box-sizing: border-box;
     height: 30px;
     width: 20%;
@@ -47,7 +47,7 @@ nav div img {
     background-color: #e0e0e0;
 }
 
-#user-container {
+nav div.user-container{
   display: flex;
   justify-content: flex-end;
 }
@@ -136,4 +136,43 @@ section ul li footer input:hover{
 
 .postsection-text {
   padding: 10px;
+}
+
+/*-----------------------------------------------------*/
+
+div.login-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+
+    width: 70vmin;
+    min-width: 300px;
+    height: 40vmax;
+    min-height: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,0.25);
+
+}
+
+.center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+input::placeholder{
+    opacity: 0.6;
+}
+
+input {
+
+    margin: 5px;
+}
+
+.login-container h2{
+    font-size: 2.2vmax;
+    max-font-size: 10px;
 }
