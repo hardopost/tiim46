@@ -27,7 +27,7 @@ nav div img {
     height: 100%;
 }
 
-nav div.search-container > input {
+.search-container > input {
     box-sizing: border-box;
     height: 30px;
     width: 80%;
@@ -36,7 +36,7 @@ nav div.search-container > input {
     border: 1px solid #e0e0e0;
 }
 
-nav div.search-container > button {
+.search-container > button {
     box-sizing: border-box;
     height: 30px;
     width: 20%;
@@ -47,7 +47,7 @@ nav div.search-container > button {
     background-color: #e0e0e0;
 }
 
-nav div.user-container{
+#user-container {
   display: flex;
   justify-content: flex-end;
 }
