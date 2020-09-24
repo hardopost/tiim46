@@ -16,7 +16,7 @@ nav {
     justify-content: flex-start;
 }
 
-nav div{
+nav div {
     height: 30px;
     flex-grow: 1;
     flex-basis: 0;
@@ -27,7 +27,7 @@ nav div img {
     height: 100%;
 }
 
-nav div.search-container > input {
+.search-container > input {
     box-sizing: border-box;
     height: 30px;
     width: 80%;
@@ -36,7 +36,7 @@ nav div.search-container > input {
     border: 1px solid #e0e0e0;
 }
 
-nav div.search-container > button {
+.search-container > button {
     box-sizing: border-box;
     height: 30px;
     width: 20%;
@@ -47,14 +47,93 @@ nav div.search-container > button {
     background-color: #e0e0e0;
 }
 
-nav div.user-container{
+#user-container {
   display: flex;
   justify-content: flex-end;
 }
 
 section {
     display: flex;
+    justify-content: center;
     background-color: #ffffff;
     width: 60%;
-    margin: 30px auto;
+    margin: 0px auto;
+}
+
+section ul {
+  display: inline-block;
+  border-radius: 15px;
+    width: 80%;
+    margin: 30px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+section ul li {
+    box-shadow: 0px 2px 15px #888888;
+    border-radius: 10px;
+    background-color: #ffffff;
+    list-style: none;
+}
+
+section ul li img{
+  width: 100%;
+}
+
+
+section ul li header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+section ul li header div {
+    height: 30px;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+}
+
+section ul li header div img {
+  height: 30px;
+  width: 30px;
+}
+
+.postsection-user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section ul li footer {
+    height: 30px;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+}
+
+section ul li footer > input {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+
+section ul li footer input:hover{
+    box-shadow: 0px 2px 15px #888888;
+    text-decoration: none;
+}
+
+.postsection-date {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.date-text {
+  color: grey;
+  font-weight: lighter;
+}
+
+.postsection-text {
+  padding: 10px;
 }
