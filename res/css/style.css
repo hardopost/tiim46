@@ -172,7 +172,26 @@ input {
     margin: 5px;
 }
 
-.login-container h2{
-    font-size: 2.2vmax;
-    max-font-size: 10px;
+.login-container h2 {
+    font-size: 20px;
+    margin: 20px;
+    alignment: center;
 }
+
+.login-container button {
+    background-color: #1c79ff;
+    color: azure;
+    width: 70px;
+    height: 30px;
+    border-style: hidden;
+    border-radius: 4px;
+}
+
+.login-container a {
+    color: dodgerblue;
+}
+.login-container input {
+    width: 150px;
+    height: 22px;
+}
+
